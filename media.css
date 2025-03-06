@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+
+    header{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+
+    h2{
+        width: 80%;
+        text-align: center;
+    }
+
+    .modal-content{
+        height: 450px;
+        width: 250px;
+    }
+}

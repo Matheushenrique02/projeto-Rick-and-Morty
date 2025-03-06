@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+
+body{
+    background-image: url('https://wallpapers.com/images/hd/star-gazing-rick-and-morty-4k-b9z0grnu6d64ixki.jpg');
+    background-size: cover;
+    
+    
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+#logo{
+    background-image: url('https://pngimg.com/d/rick_morty_PNG7.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+    
+}
+
+#icons{
+    width: 300px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#icons a{
+    color: #008CFF;
+}
+
+#prot{
+    cursor: pointer;
+}
+
+#prot:hover{
+    color: white;
+    transition: .5s;
+}
+
+main{
+    font-family: 'Bangers', sans-serif;
+                                                
+}
+
+h2{
+    margin-bottom: 20px;
+    color: #008CFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    background-color: purple;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#conteiner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+#content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 10px;
+    padding: 0px 20px;
+}
+
+.cards{
+    width: 230px;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    border-radius: 8px;
+    cursor:pointer;
+    transition: .5s;
+    padding: 10px;
+    filter: contrast(1.1) brightness(1.05);
+}
+
+.cards:hover{
+    transform: scale(1.03);
+}
+
+.background{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.781);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.name{
+    font-family: 'Bangers', sans-serif;
+    color: #9D00FF; /* Roxo vibrante */
+    text-shadow: 0px 0px 10px rgba(157, 0, 255, 0.8);
+    font-size: 20px;
+    
+
+}
+
+.buttons{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button{
+    font-size: 1em;
+    width: 100px;
+    height: 50px;
+    background-color: #9D00FF ;
+    color: black;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    border:1px solid black;
+    outline:none;
+    transition: .3s;
+    font-family: 'Bangers', sans-serif;
+    text-align: center;
+    
+
+}
+
+button:hover{
+    background-color:#008CFF ;
+    color: white;
+}
+
+#back{
+    visibility: hidden;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 200px;
+    row-gap: 10px;
+    margin: 40px 0px 20px 0px;
+    
+}
+
+footer a{
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Bangers', sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+footer a:hover{
+    color: black;
+    background-color: #9D00FF ;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.modal{
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+}
+
+.modal-content{
+    width: 25vw;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 30px 10px ;
+    align-items: center;
+    color: #008CFF;
+    text-shadow: 0px 0px 10px rgba(0, 140, 255, 0.8)
+    
+}
+
+.character-image{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: 50%, 10%;
+    background-size: cover;
+    
+}
+
+.character-details{
+    font-family: 'Star Wars', Sens serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #008CFF;
+    text-shadow: 0px 0px 10px rgba(0, 140, 255, 0.8)
+    
+    
+}
+
+
+
+
+
+
+                
